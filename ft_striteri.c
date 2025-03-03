@@ -6,7 +6,7 @@
 /*   By: seerel <seerel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 18:32:34 by seerel            #+#    #+#             */
-/*   Updated: 2024/10/20 15:11:49 by seerel           ###   ########.fr       */
+/*   Updated: 2024/10/23 09:42:30 by seerel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	unsigned int	i;
+	size_t	i;
 
 	if (!s || !f)
 		return ;

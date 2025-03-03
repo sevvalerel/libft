@@ -6,7 +6,7 @@
 /*   By: seerel <seerel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 16:56:59 by seerel            #+#    #+#             */
-/*   Updated: 2024/10/20 13:01:47 by seerel           ###   ########.fr       */
+/*   Updated: 2024/10/22 16:29:17 by seerel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define LIBFT_H
 # include <stdlib.h>
 # include <unistd.h>
-# include <fcntl.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
